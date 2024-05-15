@@ -183,14 +183,14 @@ view: jobs_base {
     group_label: "Destination Table"
     label: "Destination Table Dataset"
     type: string
-    sql:  ${destination_table}.destination_table.dataset_id ;;
+    sql:  ${TABLE}.destination_table.dataset_id ;;
   }
 
   dimension: destination_table_table_id {
     group_label: "Destination Table"
     label: "Destination Table Table"
     type: string
-    sql:  ${destination_table}.destination_table.table_id ;;
+    sql:  ${TABLE}.destination_table.table_id ;;
   }
 
   # End destination table dimension group }
